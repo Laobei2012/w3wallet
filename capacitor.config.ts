@@ -1,10 +1,10 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
-  appName: 'test-wallet',
+  appId: 'com.laobei.w3wallet',
+  appName: 'Web3.0 Wallet',
   webDir: 'dist',
-  bundledWebRuntime: false
+  bundledWebRuntime: true
 };
 
 export default config;

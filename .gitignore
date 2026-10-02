@@ -30,3 +30,19 @@ npm-debug.log*
 /platforms
 /plugins
 /www
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.keystore
+*.jks
+*.p12
+*.mobileprovision
+google-services.json
+
+# Native build output (regenerate with `npm run build && npx cap sync`)
+/android/app/src/main/assets/public
+/android/app/src/main/assets/capacitor.*.json
+/ios/App/App/public
+/ios/App/App/capacitor.config.json
